@@ -4,8 +4,8 @@ let bag="";
 for(let i=str.length-1;i>=0;i--){
 bag=bag+string[i];
 }
-returnbag;
+return bag;
 }
 let rev_str=reverse(str);
-}
-else
+
+console.log(bag)
