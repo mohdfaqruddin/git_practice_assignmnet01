@@ -1,14 +1,19 @@
 
-let flag=false;
-function prime(num){
 
-for(i=0;i<=num.length-1;i++){
+function prime(num){
+let factors=0;
+for(i=1;i<=num;i++){
 if(N%i==0){
-flag=true;
+factor++;
+rue
 }
-else{
-flase;
+if(factors==2){
+return true;
 }
+return false;
 }
-}
-prime(13);
+let ans=prime(13);
+if(ans==true){
+console.log("Prime");
+}else{
+console.log("Not Prime");}

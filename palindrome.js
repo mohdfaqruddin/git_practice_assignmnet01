@@ -1,11 +1,15 @@
 let str="aman";
 function reverse(string){
 let bag="";
-for(let i=str.length-1;i>=0;i--){
+for(let i=string.length-1;i>=0;i--){
 bag=bag+string[i];
 }
-returnbag;
+return bag;
 }
 let rev_str=reverse(str);
+if(str==rev_str){
+console.log("palindrome");
+
 }
-else
+else{
+console.log("NA");}
