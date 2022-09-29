@@ -1,11 +1,12 @@
 
 
+
 function prime(num){
 let factors=0;
 for(i=1;i<=num;i++){
 if(N%i==0){
-factor++;
-rue
+factor++
+
 }
 if(factors==2){
 return true;
